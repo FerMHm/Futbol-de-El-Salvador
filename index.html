@@ -1,1 +1,94 @@
-index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fútbol Salvadoreño</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #003893;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #0057b8;
+      display: flex;
+      justify-content: center;
+      padding: 0.75rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .noticia {
+      background: white;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+      border-left: 5px solid #0057b8;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .noticia h2 {
+      color: #003893;
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      background-color: #003893;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fútbol Salvadoreño</h1>
+    <p>Pasión por el deporte rey en El Salvador</p>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#equipos">Equipos</a>
+    <a href="#resultados">Resultados</a>
+    <a href="#historia">Historia</a>
+  </nav>
+
+  <section>
+    <div class="noticia">
+      <h2>Alianza FC gana el clásico capitalino</h2>
+      <p>En un emocionante encuentro, Alianza FC se impuso 3-2 ante Atlético Marte en el estadio Cuscatlán.</p>
+    </div>
+    <div class="noticia">
+      <h2>La Selecta Sub-20 clasifica al Premundial</h2>
+      <p>Con una destacada actuación, la selección Sub-20 aseguró su pase al Premundial de Concacaf.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Fútbol Salvadoreño. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
